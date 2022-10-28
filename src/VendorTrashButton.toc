@@ -2,7 +2,7 @@
 ## Title: VendorTrashButton
 ## Notes: Adds a button to the merchant UI that sells all trash (uncommon, gray items that can be sold) in your inventory.
 ## Author: Benjamin Hackl
-## Version: 0.1
+## Version: 1.0.0
 ## SavedVariables: VendorTrashSettings
 
 ## X-Email: mail AT behackl DOT dev
