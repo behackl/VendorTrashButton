@@ -1,4 +1,4 @@
-# VendorTrash
+# VendorTrashButton
 
 This is a clean and lightweight Addon for World of Warcraft
 which adds a button to the merchant UI that allows to sell
