@@ -1,5 +1,5 @@
 ## Interface: 100000
-## Title: VendorTrash
+## Title: VendorTrashButton
 ## Notes: Adds a button to the merchant UI that sells all trash (uncommon, gray items that can be sold) in your inventory.
 ## Author: Benjamin Hackl
 ## Version: 1.0
@@ -7,6 +7,6 @@
 
 ## X-Email: mail AT behackl DOT dev
 ## X-Credits: CrazyBenny / Stormrage-EU for SellJunk, the spiritual predecessor of this addon.
-## X-Source: https://github.com/behackl/VendorTrash
+## X-Source: https://github.com/behackl/VendorTrashButton
 
-VendorTrash.lua
+VendorTrashButton.lua
