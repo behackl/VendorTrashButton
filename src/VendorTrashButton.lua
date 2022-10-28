@@ -6,7 +6,7 @@ f:SetScript("OnEvent", function(self, event)
             VendorTrashSettings = {}
         end
 
-        local category = Settings.RegisterVerticalLayoutCategory("VendorTrash")
+        local category = Settings.RegisterVerticalLayoutCategory("VendorTrashButton")
 
         do
             local variable = "SafeMode"
@@ -47,13 +47,13 @@ function Vendor()
                 amountSold = amountSold + 1
                 if VendorTrashSettings["SafeMode"] and amountSold == 12 then
                     totalSellValue = GetCoinTextureString(totalSellValue)
-                    print("[VendorTrash] Safe Mode is enabled, stopping after 12 items. Mode can be changed in settings.")
-                    print("[VendorTrash] Sold " .. amountSold .. " uncommon items for " .. totalSellValue .. ".")
+                    print("[VendorTrashButton] Safe Mode is enabled, stopping after 12 items. Mode can be changed in settings.")
+                    print("[VendorTrashButton] Sold " .. amountSold .. " uncommon items for " .. totalSellValue .. ".")
                     return
                 end
             end
         end
     end
     totalSellValue = GetCoinTextureString(totalSellValue)
-    print("[VendorTrash] Sold " .. amountSold .. " uncommon items for " .. totalSellValue .. ".")
+    print("[VendorTrashButton] Sold " .. amountSold .. " uncommon items for " .. totalSellValue .. ".")
 end
