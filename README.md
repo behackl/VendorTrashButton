@@ -18,6 +18,8 @@ category in the game options.
 ### Acknowledgements
 
 This Addon is heavily inspired by [SellJunk](https://www.curseforge.com/wow/addons/sell-junk)
-(which is no longer actively maintained at this point). Regardless, it
-has been implemented in a modern and clean way, and uses several
-recently introduced improvements to the Addon API.
+(which is ~~no longer actively maintained at this point~~ actually
+maintained again!).
+
+Regardless, it has been implemented in a modern and clean way, and
+uses several recently introduced improvements to the Addon API.
